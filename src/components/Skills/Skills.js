@@ -1,44 +1,43 @@
 import React from 'react';
-import ReactPNG from '../images/react.png';
-import JS from '../images/JS.png';
-import Mongo from '../images/mongodb.png';
-import CSS from '../images/css.png';
-import Node from '../images/node.png';
-import Express from '../images/express.png';
-
+import { SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiExpress, SiSequelize, SiHandlebarsdotjs, SiMongodb, SiHeroku, SiReact, SiGraphql, SiGithub} from 'react-icons/si';
+import Resume from '../images/Resume.pdf'
 
 
 const Skills = () => {
     return (
         <div className='skillsContainer flex justify-center align-items mx-auto'>
             <div>
-                <div className='text-[35px]  text-blue-300 p-5 flex justify-center'>
+                <div className='text-[35px] font-extrabold text-blue-300 p-5 flex justify-center'>
                     <h1>Skills</h1>
                 </div>
-                <div className='imgContainer grid grid-cols-3'>
-                    <div>
-                        <img className='rIMG mx-auto p-10 h-50 w-50 flex justify-center align-items' src={ReactPNG} alt='' />
-                        <p className='text-white text-[20px] text-center font-mono'>React</p>
+                <div>
+                    <a type="button" className="text-[30px] font-extrabold outline outline-offset-2  text-blue-300 flex justify-center btn btn-primary " href={Resume} download>Click Button To Download Resume</a>
+                </div>
+                <div className='imgContainer grid grid-cols-2'>
+                    <div className='p-20'>
+                        <p className='text-sky-600 font-extrabold text-[28px] text-center font-sans'>Front end:</p>
+                        <a className='text-white font-bold text- text-[20px] text-center font-sans'>Javascript<SiJavascript/></a>
+                            <a className='text-white font-bold text- text-[20px] text-center font-sans'>React<SiReact/></a>
+                            <a className='text-white font-bold text- text-[20px] text-center font-sans'>CSS & CSS Frameworks<SiCss3/></a>
+                            <a className='text-white font-bold text- text-[20px] text-center font-sans'>Handlebars<SiHandlebarsdotjs/></a>
+                            <a className='text-white font-bold text- text-[20px] text-center font-sans'>HTML<SiHtml5/></a>
                     </div>
-                    <div>
-                        <img className='rIMG mx-auto p-10 h-50 w-50 flex justify-center align-items' src={JS} alt='' />
-                        <p className='text-white text-[20px] text-center font-mono'>JavaScript</p>
+                    <div className='p-20'>
+                        <p className='text-sky-600 font-extrabold text-[28px] text-center font-sans'>Back end:</p>
+                            <a className='text-white font-bold text- text-[20px] text-center font-sans'>Javascript<SiJavascript/></a>
+                            <a className='text-white font-bold text- text-[20px] text-center font-sans'>Express<SiExpress/></a>
+                            <a className='text-white font-bold  text- text-[20px] text-center font-sans'>Node<SiNodedotjs/></a>
+                            <a className='text-white font-bold  text- text-[20px] text-center font-sans'>GraphQL<SiGraphql/></a>
                     </div>
-                    <div>
-                        <img className='rIMG mx-auto p-10 h-50 w-50 flex justify-center align-items' src={Mongo} alt='' />
-                        <p className='text-white text-[20px] text-center font-mono'>Mongo/Mongoose DB & MySQl/Sequelize</p>
+                    <div className='p-20'>
+                        <p className='text-sky-600 font-extrabold text-[28px] text-center font-sans'>Storage:</p>
+                            <a className='text-white font-bold text-[20px] text-center font-sans'>Mongo DB & Mongoose <SiMongodb/></a>
+                            <a className='text-white font-bold  text-[20px] text-center font-sans'>MySQL & Sequelize<SiSequelize/></a>
                     </div>
-                    <div>
-                        <img className='rIMG mx-auto p-10 h-50 w-50 flex justify-center align-items' src={Node} alt='' />
-                        <p className='text-white text-[20px] text-center font-mono'>Node</p>
-                    </div>
-                    <div>
-                        <img className='rIMG mx-auto p-10 h-50 w-50 flex justify-center align-items' src={Express} alt='' />
-                        <p className='text-white text-[20px] text-center font-mono'>Express</p>
-                    </div>
-                    <div>
-                        <img className='rIMG mx-auto p-10 h-50 w-50 flex justify-center align-items' src={CSS} alt='' />
-                        <p className='text-white text-[20px] text-center font-mono'>CSS & CSS Frameworks</p>
+                    <div className='p-20'>
+                        <p className='text-sky-600 font-extrabold text-[28px] text-center font-sans'>Distribution Platforms:</p>
+                            <a className='text-white font-bold  text-[20px] text-center font-sans'>Github<SiGithub/></a>
+                            <a className='text-white font-bold  text-[20px] text-center font-sans'>Heroku<SiHeroku/></a>
                     </div>
                 </div>
             </div>

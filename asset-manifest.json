@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13f08615.css",
+    "main.js": "/static/js/main.83c4825c.js",
+    "static/js/787.f4a1da98.chunk.js": "/static/js/787.f4a1da98.chunk.js",
+    "static/media/wingman.png": "/static/media/wingman.dbaadb0044e4cd66071a.png",
+    "static/media/rankedify.png": "/static/media/rankedify.04a16b31a268bce5c220.png",
+    "static/media/Readmegenerator.png": "/static/media/Readmegenerator.2db677dd6ceb42f46596.png",
+    "static/media/api.png": "/static/media/api.9e60570f80c84752120d.png",
+    "static/media/teamdisplaygenerator.png": "/static/media/teamdisplaygenerator.78cf57fb1888b9159893.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.9abe17ab36be580eb826.png",
+    "static/media/Workday.png": "/static/media/Workday.98f458c056f5bf843f93.png",
+    "static/media/booksearchengine.png": "/static/media/booksearchengine.70a6599adc898c89bdf8.png",
+    "static/media/PasswordGenerator.png": "/static/media/PasswordGenerator.6cd8ae42fb1d39463171.png",
+    "static/media/forecast.png": "/static/media/forecast.7071b7adb35e6fef6006.png",
+    "static/media/Resume.pdf": "/static/media/Resume.8861659760ede3e6cb13.pdf",
+    "static/media/notetaker.png": "/static/media/notetaker.b7d1ffc77fef73966e32.png",
+    "static/media/mg.png": "/static/media/mg.1cf42bddf7222758215e.png",
+    "index.html": "/index.html",
+    "main.13f08615.css.map": "/static/css/main.13f08615.css.map",
+    "main.83c4825c.js.map": "/static/js/main.83c4825c.js.map",
+    "787.f4a1da98.chunk.js.map": "/static/js/787.f4a1da98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13f08615.css",
+    "static/js/main.83c4825c.js"
+  ]
+}

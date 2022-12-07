@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiExpress, SiSequelize, SiHandlebarsdotjs, SiMongodb, SiHeroku, SiReact, SiGraphql, SiGithub} from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiExpress, SiSequelize, SiHandlebarsdotjs, SiMongodb, SiHeroku, SiReact, SiGraphql, SiGithub } from 'react-icons/si';
 import Resume from '../images/Resume.pdf'
 
 

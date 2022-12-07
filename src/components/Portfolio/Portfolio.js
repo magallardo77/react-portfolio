@@ -10,6 +10,7 @@ import Readmegenerator from '../images/Readmegenerator.png'
 import teamdisplaygenerator from '../images/teamdisplaygenerator.png'
 import wingman from '../images/wingman.png'
 import Workday from '../images/Workday.png'
+import only from '../images/only.png'
 
 const Portfolio = () => {
     return (
@@ -17,7 +18,7 @@ const Portfolio = () => {
             <div className='imgContainer grid grid-cols-3'>
                 <div className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow-md ">
                     <a href=''>
-                        <img className="rounded-t-lg" src={rankedify} alt="" />
+                        <img className="rounded-t-lg" src={only} alt="" />
                     </a>
                     <div className="p-5">
                         <a href="#">

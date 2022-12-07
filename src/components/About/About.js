@@ -1,5 +1,5 @@
 import React from 'react'
-import mg from '../images/mg.png'
+import mg from '../images/mg.jpg'
 
 const About = () => {
     return (
